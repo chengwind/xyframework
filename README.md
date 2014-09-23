@@ -15,9 +15,9 @@ Spring Restful Service, JAX-WS/CXF
 Http Client
 
 
-Spring Data JPA, JPA/Hibernate, MyBatis
-DataBases Overview, H2 Database, DataSource, Transaction
-NOSQL, Redis
+Spring Data JPA, JPA/Hibernate
+DataBases Overview, MySQL Database, DataSource, Transaction
+NOSQL, MongoDB
 Cache Overview, Guava Cache, Ehcache, Memcached
 Service
 
