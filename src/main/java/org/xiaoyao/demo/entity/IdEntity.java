@@ -1,4 +1,4 @@
-package org.gbihealth.samples.quickservice.entity;
+package org.xiaoyao.demo.entity;
 
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;

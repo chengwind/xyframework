@@ -1,4 +1,4 @@
-package org.gbihealth.samples.quickservice.application;
+package org.xiaoyao.demo.application;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;

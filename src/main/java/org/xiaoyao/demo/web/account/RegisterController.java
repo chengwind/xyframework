@@ -3,12 +3,10 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.gbihealth.samples.quickservice.web.account;
+package org.xiaoyao.demo.web.account;
 
 import javax.validation.Valid;
 
-import org.gbihealth.samples.quickservice.entity.User;
-import org.gbihealth.samples.quickservice.service.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,6 +14,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+import org.xiaoyao.demo.entity.User;
+import org.xiaoyao.demo.service.AccountService;
 
 /**
  * 用户注册的Controller.

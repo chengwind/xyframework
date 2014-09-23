@@ -3,22 +3,22 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.gbihealth.samples.quickservice.service;
+package org.xiaoyao.demo.service;
 
 import java.util.List;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.shiro.SecurityUtils;
-import org.gbihealth.samples.quickservice.entity.User;
-import org.gbihealth.samples.quickservice.repository.TaskDao;
-import org.gbihealth.samples.quickservice.repository.UserDao;
-import org.gbihealth.samples.quickservice.service.ShiroDbRealm.ShiroUser;
 import org.hibernate.service.spi.ServiceException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
+import org.xiaoyao.demo.entity.User;
+import org.xiaoyao.demo.repository.TaskDao;
+import org.xiaoyao.demo.repository.UserDao;
+import org.xiaoyao.demo.service.ShiroDbRealm.ShiroUser;
 import org.xiaoyao.framework.utils.Clock;
 import org.xiaoyao.framework.utils.Digests;
 import org.xiaoyao.framework.utils.Encodes;

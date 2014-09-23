@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.gbihealth.samples.quickservice.entity;
+package org.xiaoyao.demo.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.JoinColumn;

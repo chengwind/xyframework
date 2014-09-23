@@ -1,4 +1,4 @@
-package org.gbihealth.samples.quickservice.application;
+package org.xiaoyao.demo.application;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;

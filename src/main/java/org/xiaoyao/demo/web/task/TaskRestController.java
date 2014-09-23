@@ -3,15 +3,13 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.gbihealth.samples.quickservice.web.task;
+package org.xiaoyao.demo.web.task;
 
 import java.net.URI;
 import java.util.List;
 
 import javax.validation.Validator;
 
-import org.gbihealth.samples.quickservice.entity.Task;
-import org.gbihealth.samples.quickservice.service.TaskService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,6 +23,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponentsBuilder;
+import org.xiaoyao.demo.entity.Task;
+import org.xiaoyao.demo.service.TaskService;
 import org.xiaoyao.framework.core.beanvalidator.BeanValidators;
 import org.xiaoyao.framework.web.MediaTypes;
 

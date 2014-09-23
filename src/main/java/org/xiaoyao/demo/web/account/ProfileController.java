@@ -3,14 +3,11 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.gbihealth.samples.quickservice.web.account;
+package org.xiaoyao.demo.web.account;
 
 import javax.validation.Valid;
 
 import org.apache.shiro.SecurityUtils;
-import org.gbihealth.samples.quickservice.entity.User;
-import org.gbihealth.samples.quickservice.service.AccountService;
-import org.gbihealth.samples.quickservice.service.ShiroDbRealm.ShiroUser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -18,6 +15,9 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.xiaoyao.demo.entity.User;
+import org.xiaoyao.demo.service.AccountService;
+import org.xiaoyao.demo.service.ShiroDbRealm.ShiroUser;
 
 /**
  * 用户修改自己资料的Controller.

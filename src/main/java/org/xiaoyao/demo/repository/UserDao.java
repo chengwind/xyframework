@@ -3,10 +3,10 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.gbihealth.samples.quickservice.repository;
+package org.xiaoyao.demo.repository;
 
-import org.gbihealth.samples.quickservice.entity.User;
 import org.springframework.data.repository.PagingAndSortingRepository;
+import org.xiaoyao.demo.entity.User;
 
 public interface UserDao extends PagingAndSortingRepository<User, Long> {
 	User findByLoginName(String loginName);

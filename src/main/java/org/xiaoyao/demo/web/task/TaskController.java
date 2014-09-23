@@ -3,16 +3,13 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.gbihealth.samples.quickservice.web.task;
+package org.xiaoyao.demo.web.task;
 
 import java.util.Map;
 
 import javax.servlet.ServletRequest;
 import javax.validation.Valid;
 
-import org.gbihealth.samples.quickservice.entity.Task;
-import org.gbihealth.samples.quickservice.entity.User;
-import org.gbihealth.samples.quickservice.service.TaskService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Controller;
@@ -23,6 +20,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+import org.xiaoyao.demo.entity.Task;
+import org.xiaoyao.demo.entity.User;
+import org.xiaoyao.demo.service.TaskService;
 import org.xiaoyao.framework.web.Servlets;
 
 import com.google.common.collect.Maps;

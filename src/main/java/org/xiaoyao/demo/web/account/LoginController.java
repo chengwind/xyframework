@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.gbihealth.samples.quickservice.web.account;
+package org.xiaoyao.demo.web.account;
 
 import org.apache.shiro.web.filter.authc.FormAuthenticationFilter;
 import org.springframework.stereotype.Controller;

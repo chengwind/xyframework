@@ -1,10 +1,8 @@
-package org.gbihealth.samples.quickservice.service;
+package org.xiaoyao.demo.service;
 
 import java.util.List;
 import java.util.Map;
 
-import org.gbihealth.samples.quickservice.entity.Task;
-import org.gbihealth.samples.quickservice.repository.TaskDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -13,6 +11,8 @@ import org.springframework.data.domain.Sort.Direction;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
+import org.xiaoyao.demo.entity.Task;
+import org.xiaoyao.demo.repository.TaskDao;
 import org.xiaoyao.framework.persistence.DynamicSpecifications;
 import org.xiaoyao.framework.persistence.SearchFilter;
 import org.xiaoyao.framework.persistence.SearchFilter.Operator;

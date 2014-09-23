@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.gbihealth.samples.quickservice.service;
+package org.xiaoyao.demo.service;
 
 import java.io.Serializable;
 
@@ -20,7 +20,7 @@ import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.util.ByteSource;
-import org.gbihealth.samples.quickservice.entity.User;
+import org.xiaoyao.demo.entity.User;
 import org.xiaoyao.framework.utils.Encodes;
 
 import com.google.common.base.Objects;

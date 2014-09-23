@@ -1,4 +1,4 @@
-package org.gbihealth.samples.quickservice.web.task;
+package org.xiaoyao.demo.web.task;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
