@@ -24,7 +24,7 @@ import org.xiaoyao.demo.service.AccountService;
 /**
  * 管理员管理用户的Controller.
  * 
- * @author calvin
+ * @author jason
  */
 @Controller
 @RequestMapping(value = "/admin/user")

@@ -26,7 +26,7 @@ import org.xiaoyao.framework.utils.Encodes;
 /**
  * 用户管理类.
  * 
- * @author calvin
+ * @author jason
  */
 // Spring Service Bean的标识.
 @Component

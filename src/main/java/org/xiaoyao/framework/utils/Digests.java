@@ -19,7 +19,7 @@ import org.xiaoyao.framework.utils.Exceptions;
  * 
  * 返回ByteSource，可进一步被编码为Hex, Base64或UrlSafeBase64
  * 
- * @author calvin
+ * @author jason
  */
 public class Digests {
 

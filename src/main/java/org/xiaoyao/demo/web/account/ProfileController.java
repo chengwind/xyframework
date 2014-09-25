@@ -22,7 +22,7 @@ import org.xiaoyao.demo.service.ShiroDbRealm.ShiroUser;
 /**
  * 用户修改自己资料的Controller.
  * 
- * @author calvin
+ * @author jason
  */
 @Controller
 @RequestMapping(value = "/profile")

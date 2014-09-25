@@ -20,7 +20,7 @@ import org.xiaoyao.demo.service.AccountService;
 /**
  * 用户注册的Controller.
  * 
- * @author calvin
+ * @author jason
  */
 @Controller
 @RequestMapping(value = "/register")

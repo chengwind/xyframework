@@ -23,7 +23,7 @@ import org.xiaoyao.framework.utils.Exceptions;
  * 
  * 支持Hex与Base64两种编码方式.
  * 
- * @author calvin
+ * @author jason
  */
 public class Cryptos {
 
